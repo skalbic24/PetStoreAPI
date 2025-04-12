@@ -1,0 +1,34 @@
+{
+  "petStoreName": "Pawfect Pets Emporium",
+  "petStoreAddress": "789 Biscuit Blvd",
+  "petStoreCity": "Meowtown",
+  "petStoreState": "NY",
+  "petStoreZip": "10001",
+  "petStorePhone": "212-555-6677",
+  "employees": [
+    {
+      "empoyeeFirstName": "Luna",
+      "empoyeeLastName": "Whiskers",
+      "employeePhone": "212-111-4455",
+      "employeeJobTitle": "Store Manager"
+    },
+    {
+      "empoyeeFirstName": "Charlie",
+      "empoyeeLastName": "Fetchman",
+      "employeePhone": "212-222-5566",
+      "employeeJobTitle": "Pet Trainer"
+    }
+  ],
+  "customers": [
+    {
+      "customerFirstName": "Olivia",
+      "customerLastName": "Sniffer",
+      "customerEmail": "olivia.sniffer@example.com"
+    },
+    {
+      "customerFirstName": "Ethan",
+      "customerLastName": "Tails",
+      "customerEmail": "ethan.tails@example.com"
+    }
+  ]
+}
