@@ -1,34 +1,35 @@
-{
-  "petStoreName": "Pawfect Pets Emporium",
-  "petStoreAddress": "789 Biscuit Blvd",
-  "petStoreCity": "Meowtown",
-  "petStoreState": "NY",
-  "petStoreZip": "10001",
-  "petStorePhone": "212-555-6677",
-  "employees": [
-    {
-      "empoyeeFirstName": "Luna",
-      "empoyeeLastName": "Whiskers",
-      "employeePhone": "212-111-4455",
-      "employeeJobTitle": "Store Manager"
-    },
-    {
-      "empoyeeFirstName": "Charlie",
-      "empoyeeLastName": "Fetchman",
-      "employeePhone": "212-222-5566",
-      "employeeJobTitle": "Pet Trainer"
-    }
-  ],
-  "customers": [
-    {
-      "customerFirstName": "Olivia",
-      "customerLastName": "Sniffer",
-      "customerEmail": "olivia.sniffer@example.com"
-    },
-    {
-      "customerFirstName": "Ethan",
-      "customerLastName": "Tails",
-      "customerEmail": "ethan.tails@example.com"
-    }
-  ]
-}
+[
+  {
+    "petStoreName": "The Pet Grove",
+    "petStoreAddress": "2 Pet Shop Lane",
+    "petStoreCity": "Reno",
+    "petStoreState": "NV",
+    "petStoreZip": "89523",
+    "petStorePhone": "775-555-1234"
+  },
+  {
+    "petStoreName": "Pawfect Pets Emporium",
+    "petStoreAddress": "789 Biscuit Blvd",
+    "petStoreCity": "Meowtown",
+    "petStoreState": "NY",
+    "petStoreZip": "10001",
+    "petStorePhone": "212-555-6677"
+  }, 
+  {
+    "petStoreName": "Happy Paws",
+    "petStoreAddress": "456 Kitty Blvd",
+    "petStoreCity": "Chicago",
+    "petStoreState": "IL",
+    "petStoreZip": "60007",
+    "petStorePhone": "312-123-4567"
+  },
+  {
+  "petStoreName": "The Wagging Tail",
+  "petStoreAddress": "789 Furry Way",
+  "petStoreCity": "Tailtown",
+  "petStoreState": "TX",
+  "petStoreZip": "73301",
+  "petStorePhone": "512-555-9876"
+  }
+  
+]

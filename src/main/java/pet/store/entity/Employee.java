@@ -17,9 +17,10 @@ public class Employee {
     private String employeePhone;
     private String employeeJobTitle;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     @JoinColumn(name = "pet_store_id")
     @EqualsAndHashCode.Exclude
     @ToString.Exclude
     private PetStore petStore;
 }
+

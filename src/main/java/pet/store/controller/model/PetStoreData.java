@@ -18,6 +18,7 @@ public class PetStoreData {
     private String petStoreCity;
     private String petStoreState;
     private String petStoreZip;
+    private String petStorePhone;
     private Set<PetStoreCustomer> customers = new HashSet<>();
     private Set<PetStoreEmployee> employees = new HashSet<>();
 
@@ -28,6 +29,8 @@ public class PetStoreData {
         this.petStoreCity = petStore.getPetStoreCity();
         this.petStoreState = petStore.getPetStoreState();
         this.petStoreZip = petStore.getPetStoreZip();
+        this.petStorePhone = petStore.getPetStorePhone();
+
 
         petStore.getCustomers().forEach(
             customer -> this.customers.add(new PetStoreCustomer(customer))
@@ -45,12 +48,16 @@ public class PetStoreData {
         private String customerFirstName;
         private String customerLastName;
         private String customerEmail;
+        private Set<Long> petStoreIds = new HashSet<>();
 
         public PetStoreCustomer(Customer customer) {
             this.customerId = customer.getCustomerId();
             this.customerFirstName = customer.getCustomerFirstName();
             this.customerLastName = customer.getCustomerLastName();
             this.customerEmail = customer.getCustomerEmail();
+            
+            customer.getPetStores().forEach(store -> this.petStoreIds.add(
+            		store.getPetStoreId()));
         }
     }
 
@@ -61,12 +68,14 @@ public class PetStoreData {
         private String employeeFirstName;
         private String employeeLastName;
         private String employeeJobTitle;
+        private String employeePhone;
 
         public PetStoreEmployee(Employee employee) {
             this.employeeId = employee.getEmployeeId();
             this.employeeFirstName = employee.getEmployeeFirstName();
             this.employeeLastName = employee.getEmployeeLastName();
             this.employeeJobTitle = employee.getEmployeeJobTitle();
+            this.employeePhone = employee.getEmployeePhone();
         }
     }
 }

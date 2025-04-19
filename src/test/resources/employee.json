@@ -1,0 +1,42 @@
+[
+  {
+    "employeeFirstName": "Samantha",
+    "employeeLastName": "Burns",
+    "emplooyeeEmail": "samatha_burns@ngo.gov",
+    "employeePhone": "123-234=5678",
+    "employeeJobTitle": "Manager"
+  },
+  {
+    "employeeFirstName": "Emma",
+    "employeeLastName": "Barker",
+    "employeeJobTitle": "Grooming Specialist",
+    "employeePhone": "555-123-4567"
+  },
+  {
+    "employeeFirstName": "Liam",
+    "employeeLastName": "Pawson",
+    "employeeJobTitle": "Veterinary Technician",
+    "employeePhone": "555-234-5678"
+  },
+  {
+    "employeeFirstName": "Ava",
+    "employeeLastName": "Sniffles",
+    "employeeJobTitle": "Sales Associate",
+    "employeePhone": "555-345-6789"
+  },
+  {
+    "employeeFirstName": "Noah",
+    "employeeLastName": "Fetchman",
+    "employeeJobTitle": "Pet Nutritionist",
+    "employeePhone": "555-456-7890"
+  },
+  {
+    "employeeFirstName": "Sophia",
+    "employeeLastName": "Waggins",
+    "employeeJobTitle": "Customer Service Lead",
+    "employeePhone": "555-567-8901"
+  }
+]
+
+ 
+    

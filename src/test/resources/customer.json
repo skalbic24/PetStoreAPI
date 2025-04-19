@@ -1,0 +1,32 @@
+[
+  {
+    "customerFirstName": "Tony",
+    "customerLastName": "Parnoodle",
+	"customerEmail": "tony@noodellas.r.us"
+  },
+  {
+    "customerFirstName": "Milo",
+    "customerLastName": "Whiskers",
+    "customerEmail": "milo.whiskers@example.com"
+  },
+  {
+    "customerFirstName": "Chloe",
+    "customerLastName": "Purrington",
+    "customerEmail": "chloe.purrington@example.com"
+  },
+  {
+    "customerFirstName": "Max",
+    "customerLastName": "Tailor",
+    "customerEmail": "max.tailor@example.com"
+  },
+  {
+    "customerFirstName": "Bella",
+    "customerLastName": "Snuggles",
+    "customerEmail": "bella.snuggles@example.com"
+  },
+  {
+    "customerFirstName": "Oliver",
+    "customerLastName": "Barkley",
+    "customerEmail": "oliver.barkley@example.com"
+  }
+]
